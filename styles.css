@@ -1,0 +1,93 @@
+
+body {
+    background-color: black;
+
+}
+
+header{display: flex;}
+
+
+
+h1 {
+    color: white;
+    width: 100%;
+}
+
+p {
+    color: grey;
+}
+
+
+#logo{width: 520px;}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+button {
+    background-color: green;
+    color: white;
+    
+}
+
+#coletar {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  #coletar input,
+  button {
+    border-radius: 0.5rem;
+  }
+  
+  #coletar input {
+    width: 32.5rem;
+    height: 4.5rem;
+    padding-left: 2.187rem;
+  
+    font-size: 1rem;
+  }
+  
+  #coletar button {
+    font-family: "Archivo", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    background-color: #04d361;
+    width: 18.812rem;
+  
+    transition: 0.5s;
+  }
+  
+  #coletar button:hover{
+      background-color: #00b350;
+  
+      box-shadow: 0.5rem 0.5rem 0.5rem #00b35146;
+  
+  
+  }
+
+  p {
+      text-align: center;
+
+  } 
+  
+  h1 {
+      text-align: center;
+  } 
+
+  #left {
+      width: 800px;
+      margin: 80px auto;
+  
+    }
+
+
+
+
